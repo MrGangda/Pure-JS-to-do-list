@@ -74,12 +74,19 @@
 
 .todo__item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
+    flex-direction: column;
     border: 3px solid black;
     padding: 5px;
     border-radius: 5px;
     background-color: blanchedalmond;
+}
+
+.wrapper__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .btn {
