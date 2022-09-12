@@ -102,3 +102,19 @@
     border-radius: 5px;
     color: aliceblue;
 }
+
+.animation__class {
+    animation: opacity .5s ease-in-out;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(160px);
+    }
+}
